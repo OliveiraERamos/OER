@@ -1,0 +1,78 @@
+<html>
+    <head>
+        <meta content="width=device-width; height=device-height;" name="viewport">
+        <meta charset="utf-8"/>
+        <title>Boas Festas OER</title>
+        <style>
+			@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+			
+            html, body {
+                font-family:Roboto,"Times New Roman,serif";
+            }
+            div#idbody {
+                display:table;
+                width:100%;
+                height:auto
+				
+            }
+            a {
+                font-size: 80%;
+            }
+			
+			img{
+			 position: relative; 
+			 }
+			 
+            table {
+                width: 100%;
+                height: 100%;
+            }
+            td {
+                text-align: center;
+                alignment-adjust: central;
+            }
+			
+			#textoDoCartao{
+				color: #FFFAA5;
+				position: absolute;
+				line-height: 20px;
+				top: 530px; 
+				left: 0; 
+				width: 100%; 
+							}
+        </style>
+    </head>
+    <body lang="pt-br" link="black" vlink="black">
+        <div id="idbody">
+            <table>
+<!--
+                <tr>
+                    <td>
+                        <a href="https://i.imgur.com/ERUOq7Y.png">
+                            Para visualizar a imagem abaixo, clique aqui!<br/>
+						</a>
+                    </td>
+                </tr>
+-->
+                <tr>
+                    <td>
+                        <img 
+                            id="cartao" 
+                            src="https://i.imgur.com/ERUOq7Y.png"
+						    width="495px";
+							height="670px";
+                         />
+						 
+						 <td id="textoDoCartao"> É com sentimento de gratidão por todos os que<br>
+							  estiveram conosco neste ano que desejamos um <br>
+							  Feliz Natal e um Ano Novo repleto de conquistas.<br>
+							  Que juntos possamos vencer novos desafios<br>
+							  e renovar as energias.<br>
+							  Boas Festas!
+						 </td>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>
